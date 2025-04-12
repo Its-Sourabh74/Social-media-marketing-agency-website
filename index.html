@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Multiconn-Social Media Marketing Agency</title>
+  <meta property="og:title" content="Multiconn Agency | Creative Digital Solutions for Your Business">
+  <meta property="og:description" content="Multiconn Agency delivers innovative digital marketing, web design, and branding solutions to help businesses thrive online.">
+  <meta property="og:url" content="https://Multiconn.in">
+  <meta property="og:type" content="website">
+  <meta name="author" content="Multiconn Agency">
+
+
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+   <!-- resources for statistic -->
+
+   <link
+   rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+ />
+ <!-- Google Fonts -->
+ <link
+   href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+   rel="stylesheet"
+ />
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+
+<!-- end resources for statistic -->
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Multiconn
+  * Updated: 4 december 2024
+  * Author: Sourabh
+  * Contact : https://www.linkedin.com/in/sourabh-jha-b79869321
+  ======================================================== -->
+  <style>
+    body {
+      background-color: #21242b;
+    }
+
+    /* Statistics Section Styling */
+    .statistics {
+      width: 100%; /* Full width */
+      margin: 0 auto;
+      padding: 60px 0; /* Add padding for spacing */
+      background: #000000; /* Gradient background for a modern look */
+      box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+    }
+
+    .section-title h2 {
+      font-size: 36px;
+      font-weight: 700;
+      color: #ffffff; /* Bright white for the title */
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .section-title p {
+      font-size: 18px;
+      color: #cccccc; /* Light grey for the subtitle */
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .statistics-wrapper {
+      display: grid; /* Use grid layout */
+      grid-template-columns: repeat(4, 1fr); /* Four columns for larger screens */
+      gap: 20px; /* Add spacing between boxes */
+      width: 90%; /* Keep content within the container */
+      margin: 0 auto; /* Center the content */
+    }
+
+    .box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; /* Center content vertically */
+      align-items: center; /* Center content horizontally */
+      padding: 1.5em;
+      position: relative;
+      font-size: 16px;
+      border-radius: 10px; /* Rounded corners for a modern look */
+      background: linear-gradient(145deg, #2a2d35, #1e1f26); /* Gradient background for the boxes */
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center; /* Center-align text inside the box */
+    }
+
+    .box:hover {
+      transform: translateY(-10px); /* Lift the box slightly on hover */
+      box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.5); /* Enhance shadow on hover */
+    }
+
+    .icon {
+      color: #e61717; /* Bright red for the icons */
+      font-size: 3em; /* Larger icons for emphasis */
+      margin-bottom: 10px; /* Add spacing below the icon */
+    }
+
+    span.num {
+      color: #ffffff; /* Bright white for numbers */
+      font-weight: 700;
+      font-size: 3.5em; /* Larger font size for numbers */
+      margin-bottom: 10px; /* Add spacing below the number */
+    }
+
+    span.text {
+      color: #cccccc; /* Light grey for the text */
+      font-size: 1.2em; /* Slightly larger text */
+      margin-top: 10px;
+      word-wrap: break-word; /* Ensure long words break to fit inside the box */
+      line-height: 1.4; /* Improve readability */
+    }
+
+    /* Responsive Design */
+    @media screen and (max-width: 1024px) {
+      .statistics-wrapper {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for tablets */
+        gap: 20px; /* Add spacing between boxes */
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .statistics-wrapper {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for phones */
+        gap: 15px; /* Reduce gap for smaller screens */
+      }
+      .box {
+        font-size: 14px; /* Adjust font size for readability */
+        padding: 1em; /* Adjust padding for smaller screens */
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .statistics-wrapper {
+        grid-template-columns: repeat(2, 1fr); /* Two columns for very small phones */
+        gap: 10px; /* Reduce gap for very small screens */
+      }
+      .box {
+        font-size: 12px; /* Adjust font size for smaller screens */
+        padding: 0.8em; /* Adjust padding for very small screens */
+      }
+    }
+  </style>
+    
+
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/logo.png" alt="multiconn">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home<br></a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="portfolio.html">Clients</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4">
+            <h1 data-aos="fade-up">Connecting Ideas, People, and Success.</h1>
+            <blockquote data-aos="fade-up" data-aos-delay="100">
+              <p>Multiconn: Where Innovation Meets Collaboration.</p>
+            </blockquote>
+            <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
+              <a href="about.html" class="btn-get-started">Get Started</a>
+              <a href="assets/Ad 1.mp4" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="why-us section">
+
+      <div class="container">
+
+        <div class="row g-0">
+
+          <div class="col-xl-5 img-bg" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/why-us-bg.jpg" alt="">
+          </div>
+
+          <div class="col-xl-7 slides position-relative" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "centeredSlides": true,
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  },
+                  "navigation": {
+                    "nextEl": ".swiper-button-next",
+                    "prevEl": ".swiper-button-prev"
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Who We Are</h3>
+                    <h4 class="mb-3">Bridging the Gap Between Ideas and Success</h4>
+                    <p>At Multiconn, we are passionate connectors, bringing together ideas, people, and solutions to drive meaningful growth. Our team thrives on creativity and collaboration, leveraging our expertise to empower businesses to navigate challenges and seize opportunities. With a deep commitment to innovation and a client-first approach, we craft strategies that bridge the gap between ambition and achievement.
+                    </p>
+                  </div>
+                </div><!-- End slide item -->
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Our Mission</h3>
+                    <h4 class="mb-3">Transforming Connections Into Outcomes</h4>
+                    <p>To transform connections into outcomes. Multiconn is dedicated to building networks that fuel progress, innovation, and success. Our mission is to create impactful solutions that elevate brands and empower individuals to achieve their goals in an ever-evolving world.</p>
+                  </div>
+                </div><!-- End slide item -->
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">What drives Us</h3>
+                    <h4 class="mb-3">Guided by Innovation, Collaboration, and Excellence</h4>
+                    <p>Innovation, collaboration, and excellence drive everything we do. We believe that meaningful connections are the foundation of success, and we’re committed to fostering relationships that create value. At Multiconn, we aim to inspire trust, deliver results, and leave a lasting impact.</p>
+                  </div>
+                </div><!-- End slide item -->
+
+                <div class="swiper-slide">
+                  <div class="item">
+                    <h3 class="mb-3">Why Choose Us</h3>
+                    <h4 class="mb-3">Your Trusted Partner for Growth</h4>
+                    <p>Because we care about your success. At Multiconn, we prioritize understanding your unique challenges and aspirations. Our tailored solutions, expert insights, and dedication to delivering measurable results make us a trusted partner in your journey toward growth.</p>
+                  </div>
+                </div><!-- End slide item -->
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Our Services</h2>
+        <p>Empowering Your Vision with Tailored Solutions</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon flex-shrink-0"><i class="bi bi-film" style="color: #bf0000;"></i></div>
+            <div>
+              <h4 class="title">Brand and AD Films</h4>
+              <p class="description">We create compelling brand and ad films that captivate audiences, telling your story through powerful visuals and impactful messaging to enhance brand recognition and drive engagement.</p>
+              <a href="services.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon flex-shrink-0"><i class="bi bi-camera-reels-fill" style="color: #bf0000;"></i></div>
+            <div>
+              <h4 class="title">Video Production</h4>
+              <p class="description">From concept to final cut, we craft high-quality videos that captivate and engage your audience. Elevate your brand with cinematic storytelling.</p>
+              <a href="services.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon flex-shrink-0"><i class="bi bi-building-fill" style="color: #bf0000;"></i></div>
+            <div>
+              <h4 class="title">Wedding Films</h4>
+              <p class="description">We capture the essence of your special day with cinematic wedding films, blending emotion, beauty, and storytelling to create timeless memories that you’ll cherish forever.</p>
+              <a href="services.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon flex-shrink-0"><i class="bi bi-badge-3d-fill" style="color: #bf0000;"></i></div>
+            <div>
+              <h4 class="title">CGI & 3D Ads</h4>
+              <p class="description">Bring your ideas to life with stunning CGI and 3D animations. Eye-catching visuals that make your brand unforgettable.</p>
+              <a href="services.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon flex-shrink-0"><i class="bi bi-camera-fill" style="color: #bf0000;"></i></div>
+            <div>
+              <h4 class="title">Product AD Shoot</h4>
+              <p class="description">Showcase your products with high-end photography and videography that highlights every detail, making them irresistible to customers.</p>
+              <a href="services.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon flex-shrink-0"><i class="bi bi-bar-chart-fill" style="color: #bf0000;"></i></div>
+            <div>
+              <h4 class="title">Content Creation</h4>
+              <p class="description">We craft engaging content tailored to your brand, from written articles to videos and social media posts, ensuring your message resonates and drives meaningful connections with your audience.</p>
+              <a href="services.html" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/cta-bg.jpg" alt="">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Call To Action</h3>
+              <p>Ready to take your brand to the next level? Contact us today to explore how Multiconn’s creative solutions can drive growth, increase engagement, and deliver exceptional results for your business.</p>
+              <a class="cta-btn" href="contact.html">Call Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+   <!-- Statistics -->
+   <section id="statistics" class="statistics section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Multiconn Statistics</h2>
+    <p>Our Achievements at a Glance</p>
+  </div><!-- End Section Title -->
+
+  <!-- Statistics Numbers -->
+  <div class="container">
+    <div class="statistics-wrapper">
+      <div class="box">
+        <div class="icon">
+          <i class="fa-solid fa-briefcase"></i>
+        </div>
+        <span class="num" data-val="132">000</span>
+        <span class="text">Projects Delivered</span>
+      </div>
+
+      <div class="box">
+        <div class="icon">
+          <i class="fa-solid fa-face-smile-wink"></i>
+        </div>
+        <span class="num" data-val="56">000</span>
+        <span class="text">Happy Clients</span>
+      </div>
+
+      <div class="box">
+        <div class="icon">
+          <i class="fa-solid fa-building"></i>
+        </div>
+        <span class="num" data-val="32">000</span>
+        <span class="text">Brands</span>
+      </div>
+
+      <div class="box">
+        <div class="icon">
+          <i class="fa-solid fa-user-group"></i>
+        </div>
+        <span class="num" data-val="6">000</span>
+        <span class="text">Years of Experience</span>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End of Statistics -->
+
+   <!-- Testimonials Section -->
+   <section id="testimonials" class="testimonials section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Testimonials</h2>
+      <p>What Our Clients Say About Us</p>
+    </div><!-- End Section Title -->
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="swiper init-swiper">
+        <script type="application/json" class="swiper-config">
+          {
+            "loop": true,
+            "speed": 600,
+            "autoplay": {
+              "delay": 5000
+            },
+            "slidesPerView": "auto",
+            "pagination": {
+              "el": ".swiper-pagination",
+              "type": "bullets",
+              "clickable": true
+            },
+            "breakpoints": {
+              "320": {
+                "slidesPerView": 1,
+                "spaceBetween": 40
+              },
+              "1200": {
+                "slidesPerView": 3,
+                "spaceBetween": 1
+              }
+            }
+          }
+        </script>
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                Working with Multiconn has been an incredible experience. Their creativity and attention to detail brought our brand campaigns to life, exceeding our expectations every time.
+              </p>
+              <div class="profile mt-auto">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Anjali Mehra</h3>
+                <h4>Marketing Manager, Radiant Fashions</h4>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                Multiconn’s team truly understands the importance of collaboration. Their innovative approach to digital marketing helped us boost our online presence and achieve measurable growth.
+              </p>
+              <div class="profile mt-auto">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Ravi Singh</h3>
+                <h4>CEO, TechnoGenius Solutions</h4>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                The wedding films they created for my clients were nothing short of magical. Multiconn captures emotions in a way that turns moments into timeless memories.
+              </p>
+              <div class="profile mt-auto">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Sneha Kapoor</h3>
+                <h4>Founder, Blissful Weddings</h4>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                Their corporate film perfectly showcased our mission and values. Multiconn’s professionalism and dedication made the process seamless and highly rewarding.
+              </p>
+              <div class="profile mt-auto">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Amit Verma</h3>
+                <h4>Operations Head, Green Future Energy</h4>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-item">
+              <div class="stars">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
+              <p>
+                Multiconn transformed our brand image with stunning visuals and compelling storytelling. Their work has been instrumental in reaching new customers and elevating our business.
+              </p>
+              <div class="profile mt-auto">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>Rajesh Nair</h3>
+                <h4>Director, Nair’s Culinary Creations</h4>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </div>
+
+  </section><!-- /Testimonials Section -->
+
+    <!-- Recent Posts Section -->
+    <!-- /Recent Posts Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Multiconn</span>
+            </a>
+            <p>Stay connected and inspired—follow us for the latest updates, insights, and creative solutions.</p>
+            <div class="social-links d-flex mt-4">
+              <a href="https://youtube.com/@multiconn?si=yEVamrnMn-VYfIf9"><i class="bi bi-youtube"></i></a>
+              <a href="https://www.facebook.com/share/p/1E4jBHUSrC/"><i class="bi bi-facebook"></i></a>
+              <a href="https://www.instagram.com/multiconn.in/"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/company/multiconn-pvtl-td/"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About us</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="privacy-policy.html">Terms of service</a></li>
+              <li><a href="terms.html">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="services.html">Brand and AD Flims</a></li>
+              <li><a href="services.html">Corporate Flims</a></li>
+              <li><a href="services.html">wedding flims</a></li>
+              <li><a href="services.html">Visual Effects</a></li>
+              <li><a href="services.html">Photoshoots</a></li>
+              <li><a href="services.html">Content Creation</a></li>
+              <li><a href="services.html">Social Media Management</a></li>
+              <li><a href="services.html">Digital Marketing</a></li>
+              <li><a href="services.html">2D & 3D Animations </a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>E-179, near Mahesh Apartment,</p>
+            <p> Block ED, New Ashok Nagar, Delhi, 110096</p>
+            <p>India</p>
+            <p class="mt-4"><strong>Phone:</strong> <span>+91 93541 57914</span></p>
+            <p><strong>Email:</strong> <span>support@multiconn.in</span></p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright text-center">
+      <p>© 2024-2025 <span>Copyright</span> <strong class="px-1 sitename">Multiconn</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!--  * Template Name: Multiconn
+              * Updated: 4 december 2024
+              * Author: Sourabh
+              * Contact : https://www.linkedin.com/in/sourabh-jha-b79869321 -->
+       
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up"></i></a>
+  <!--whatsapp button -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://wa.link/uovh0l" class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <script>
+    let valueDisplays = document.querySelectorAll(".num");
+    let interval = 4000;
+
+    valueDisplays.forEach((valueDisplay) => {
+      let startValue = 0;
+      let endValue = parseInt(valueDisplay.getAttribute("data-val"));
+      let duration = Math.floor(interval / endValue);
+      let counter = setInterval(function () {
+        startValue += 1;
+        valueDisplay.textContent = startValue;
+        if (startValue == endValue) {
+          clearInterval(counter);
+          valueDisplay.textContent += "+"; // Add "+" to all stats
+        }
+      }, duration);
+    });
+  </script>
+
+</body>
+
+</html>
