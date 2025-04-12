@@ -144,16 +144,15 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(255, 255, 255, 0);
-  --heading-color: #ffffff;
-  color: var(--default-color);
-  background-color: transparent !important; /* Ensure the navbar background is transparent */
-  box-shadow: none; /* Remove any shadow that might appear */
+  background-color: #000000 !important; /* Black background */
+  color: var(--default-color); /* Ensure text remains readable */
+  box-shadow: none; /* Remove any shadow */
   padding: 20px 0;
-  transition: all 0.5s;
-  z-index: 997;
-  position: static; /* Change to static to remove stickiness */
+  position: sticky; /* Makes the navbar sticky */
+  top: 0; /* Sticks the navbar to the top of the viewport */
+  z-index: 999; /* Ensures the navbar stays above other elements */
   width: 100%;
+  transition: all 0.3s ease-in-out; /* Smooth transition for any changes */
 }
 
 .header .logo {
@@ -161,9 +160,9 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 150px;
+  max-height: 50px;
   margin-right: 8px;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 
 .header .logo h1 {
@@ -186,8 +185,7 @@ h6 {
 /* Make the header transparent for mobile and tablet devices */
 @media (max-width: 1199px) {
   .header {
-    background-color: transparent !important; /* Transparent background for header */
-    box-shadow: none !important; /* Remove any shadow */
+    background-color: #000000 !important; /* Black background for mobile and tablet */
   }
 }
 
